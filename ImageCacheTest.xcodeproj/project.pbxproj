@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1850E9F81A36AD8A00082066 /* PBImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850E9F71A36AD8A00082066 /* PBImageOperation.m */; };
 		186D12CE1A2EF88000445A40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D12CD1A2EF88000445A40 /* main.m */; };
 		186D12D11A2EF88000445A40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D12D01A2EF88000445A40 /* AppDelegate.m */; };
 		186D12D41A2EF88000445A40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D12D31A2EF88000445A40 /* ViewController.m */; };
@@ -14,6 +15,9 @@
 		186D12D91A2EF88000445A40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186D12D81A2EF88000445A40 /* Images.xcassets */; };
 		186D12DC1A2EF88000445A40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186D12DA1A2EF88000445A40 /* LaunchScreen.xib */; };
 		186D12E81A2EF88000445A40 /* ImageCacheTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D12E71A2EF88000445A40 /* ImageCacheTestTests.m */; };
+		186D132D1A2EFA0700445A40 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D132A1A2EFA0700445A40 /* FileManager.m */; };
+		186D132E1A2EFA0700445A40 /* UIImageView+Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D132C1A2EFA0700445A40 /* UIImageView+Cache.m */; };
+		186D13301A2EFA1200445A40 /* canvas.png in Resources */ = {isa = PBXBuildFile; fileRef = 186D132F1A2EFA1200445A40 /* canvas.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1850E9F61A36AD8A00082066 /* PBImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBImageOperation.h; sourceTree = "<group>"; };
+		1850E9F71A36AD8A00082066 /* PBImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBImageOperation.m; sourceTree = "<group>"; };
 		186D12C81A2EF88000445A40 /* ImageCacheTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCacheTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186D12CC1A2EF88000445A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186D12CD1A2EF88000445A40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,11 @@
 		186D12E11A2EF88000445A40 /* ImageCacheTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCacheTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		186D12E61A2EF88000445A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186D12E71A2EF88000445A40 /* ImageCacheTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCacheTestTests.m; sourceTree = "<group>"; };
+		186D13291A2EFA0700445A40 /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		186D132A1A2EFA0700445A40 /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
+		186D132B1A2EFA0700445A40 /* UIImageView+Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Cache.h"; sourceTree = "<group>"; };
+		186D132C1A2EFA0700445A40 /* UIImageView+Cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Cache.m"; sourceTree = "<group>"; };
+		186D132F1A2EFA1200445A40 /* canvas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = canvas.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +96,13 @@
 				186D12D01A2EF88000445A40 /* AppDelegate.m */,
 				186D12D21A2EF88000445A40 /* ViewController.h */,
 				186D12D31A2EF88000445A40 /* ViewController.m */,
+				186D132A1A2EFA0700445A40 /* FileManager.m */,
+				186D13291A2EFA0700445A40 /* FileManager.h */,
+				186D132B1A2EFA0700445A40 /* UIImageView+Cache.h */,
+				186D132C1A2EFA0700445A40 /* UIImageView+Cache.m */,
+				1850E9F61A36AD8A00082066 /* PBImageOperation.h */,
+				1850E9F71A36AD8A00082066 /* PBImageOperation.m */,
+				186D132F1A2EFA1200445A40 /* canvas.png */,
 				186D12D51A2EF88000445A40 /* Main.storyboard */,
 				186D12D81A2EF88000445A40 /* Images.xcassets */,
 				186D12DA1A2EF88000445A40 /* LaunchScreen.xib */,
@@ -200,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				186D12D71A2EF88000445A40 /* Main.storyboard in Resources */,
+				186D13301A2EFA1200445A40 /* canvas.png in Resources */,
 				186D12DC1A2EF88000445A40 /* LaunchScreen.xib in Resources */,
 				186D12D91A2EF88000445A40 /* Images.xcassets in Resources */,
 			);
@@ -221,7 +240,10 @@
 			files = (
 				186D12D41A2EF88000445A40 /* ViewController.m in Sources */,
 				186D12D11A2EF88000445A40 /* AppDelegate.m in Sources */,
+				186D132E1A2EFA0700445A40 /* UIImageView+Cache.m in Sources */,
 				186D12CE1A2EF88000445A40 /* main.m in Sources */,
+				186D132D1A2EFA0700445A40 /* FileManager.m in Sources */,
+				1850E9F81A36AD8A00082066 /* PBImageOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageCacheTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageCacheTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +436,7 @@
 				186D12ED1A2EF88000445A40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		186D12EE1A2EF88000445A40 /* Build configuration list for PBXNativeTarget "ImageCacheTestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +445,7 @@
 				186D12F01A2EF88000445A40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
